@@ -25,7 +25,7 @@ function randomSquare()
     setTimeout( ()=>{
         randomPosition.classList.remove("mole");
         hitPosition=undefined;
-    },1200);
+    },800);
 
     // console.log(hitPosition);
 }
@@ -64,7 +64,7 @@ function moveMole()
 {
     if(startOnce)
     {
-    moleMoveId = setInterval(randomSquare, 1500);
+    moleMoveId = setInterval(randomSquare, 1000);
     timerId = setInterval(countDown, 1000);
     }
 
