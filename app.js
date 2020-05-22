@@ -88,7 +88,7 @@ function countDown()
         clearInterval(moleMoveId);
 
         setTimeout(()=>{
-        alert("Game Over!");
+        alert("Congratulations! You have won.");
         },1000)
     }
     else if(currentTime==0 && result<40)
@@ -101,7 +101,7 @@ function countDown()
 
         setTimeout( ()=>{
 
-        alert("Game Over!");
+        alert("You lost!");
         },1000)
     }
 }
