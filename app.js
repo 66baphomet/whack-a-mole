@@ -64,7 +64,7 @@ function moveMole()
 {
     if(startOnce)
     {
-    moleMoveId = setInterval(randomSquare, 1000);
+    moleMoveId = setInterval(randomSquare, 900);
     timerId = setInterval(countDown, 1000);
     }
 
